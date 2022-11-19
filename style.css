@@ -2,82 +2,34 @@ body, html {
 	width: 100%;
 	height: 100%;
 	font-family: 'Cormorant', serif;
-	background-color: #8E6E3D;
+	background: url(whole_background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
-
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;	
+h1 {
+	font-size: 5VW;
+	color: #FAF6EA;
 }
 
-h1 {	
-	font-size: 3em;	
-	width: 300px;	
+    hr {
+        margin: 10px;
+        color: #EEDBC2;
+        border: 1px solid #EEDBC2;
+        max-width: 100px;
+        opacity: 1;              
+    }
+
+.btn {
+	font-weight: 700;
+	border-radius: 10px;
+	top-margin: 30px;
+	width: 50%;
 }
 
-h3 {
-	color: #311B16;
-}
-
-.container img {
-	width: 450px;
-	height: 300px;
-	margin: 2px;
-	transition: all 1s;
-}
-
-.container img:hover {
-	transform: scale(1.1);
-}
-
-.homepage {
-	display: inline-flex;	
-	flex-direction: row;
-	align-items: center;
-}
-
-.homepage_text {
-	width: 30%;
-	margin: 2rem
-
-}
-
-.homepage_title {
-	text-shadow: 1px #8B624D;
-	font-size: 6rem;
-	font-weight: semibold;	
-	text-align: left;
-	color: #B9B0A9;
-	transition: all 1s;
-	width: 100%;
-}
-
-.homepage_title:hover {	
-	transform: scale(1.1);
-}
-
-.homepage_image {
-	width: 70%;
-	height: auto;
-	transition-property: none;	
-}
-
-
-button {
-	padding: 0.5rem 0.8rem;
-	margin-top: 2rem;
-	background-color: #B9B0A9;
-	border: none;
-	color: #311B16;
-	font-weight: bold;
-	font-size: 1.3rem;
-	border-radius: 8px;
-
-}
-
-button:hover {
-	background-color: #311B16;
-	color: #B9B0A9;
+.btn-light {
+	background-color: #FAF6EA;
+	border-color: #FAF6EA;
 }
