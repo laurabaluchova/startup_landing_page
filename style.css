@@ -9,27 +9,58 @@ body, html {
   	background-size: cover;
 }
 
-h1 {
-	font-size: 5VW;
-	color: #FAF6EA;
+.navbar {
+	font-size: 16px;
 }
 
-    hr {
-        margin: 10px;
-        color: #EEDBC2;
-        border: 1px solid #EEDBC2;
-        max-width: 100px;
-        opacity: 1;              
+.navbar img {
+	align-self: baseline;
+}
+
+.divider {
+	height: 90VH;
+}
+
+h1 {
+	font-size: 4.7VW;
+	color: #FAF6EA;
+	transition: all 1s;
+}
+
+small {
+	margin-bottom: 45px;
+	color: #FAF6EA;
+	font-size: 1.5VW;
+}
+
+ hr {
+    margin: 10px;
+     color: #EEDBC2;
+     border: 1px solid #EEDBC2;
+     max-width: 100px;
+     opacity: 1;               
     }
 
+	h1:hover {
+	transform: scale(1.1);
+}
+	
 .btn {
 	font-weight: 700;
-	border-radius: 10px;
-	top-margin: 30px;
-	width: 50%;
+	border-radius: 10px;		
+	width: 70%;
 }
 
 .btn-light {
 	background-color: #FAF6EA;
 	border-color: #FAF6EA;
+}
+
+
+.container-fluid d-flex flex-column p-0 {
+	justify-content: flex-start;	
+}
+
+.row {
+	padding-left: 8VW;
 }
