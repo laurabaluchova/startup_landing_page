@@ -20,9 +20,10 @@ body, html {
 }
 
 .container_images img:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 .navbar {
 	font-size: 16px;
+	margin-bottom: 25px;
 }
